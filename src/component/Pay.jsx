@@ -1,4 +1,4 @@
-function Footer() {
+function Pay() {
     return (
 
         <>
@@ -7,4 +7,4 @@ function Footer() {
     
 }
 
-export default Footer
+export default Pay

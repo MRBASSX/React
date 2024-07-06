@@ -1,4 +1,5 @@
-function Footer() {
+
+function About() {
     return (
 
         <>
@@ -7,4 +8,4 @@ function Footer() {
     
 }
 
-export default Footer
+export default About
