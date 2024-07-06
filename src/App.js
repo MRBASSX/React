@@ -18,7 +18,7 @@ function App() {
        
         <div>
   <Button>
-    Button as link
+    Button as 
   </Button>
   <Button>
     Button as link
