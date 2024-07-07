@@ -72,18 +72,30 @@ function Nabars() {
                     </div>
                 </div>
                 <div className="d-inline-flex align-items-center d-block d-lg-none">
+                  
                     <Link href className="btn px-0 ml-2">
-                        <i className="fas fa-heart text-dark" />
-                        <span className="badge text-dark border border-dark rounded-circle" style={{paddingBottom: 2}}>0</span>
+                        <i className="fas fa-heart text-white" />
+                        <span className="badge text-white border border-white rounded-circle" style={{paddingBottom: 2}}>0</span>
                     </Link>
                     <Link href className="btn px-0 ml-2">
-                        <i className="fas fa-shopping-cart text-dark" />
-                        <span className="badge text-dark border border-dark rounded-circle" style={{paddingBottom: 2}}>0</span>
+                        <i className="fas fa-shopping-cart text-white" />
+                        <span className="badge text-white border border-white rounded-circle" style={{paddingBottom: 2}}>0</span>
                     </Link>
+                    <form action className="mt-2 mx-2">
+                    <div className="input-group">
+                        <input type="text" className="form-control" placeholder="Search for products" />
+                        <div className="btn btn-primary  p-1">
+                            <span className="input-group-text bg-transparent text-">
+                <i className="fa fa-search text-white" />
+              </span>
+                        </div>
+                    </div>
+                </form>
                 </div>
+                
             </div>
         </div>
-        <div className="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
+        <div className="row align-items-center bg-light py-2 px-xl-5 d-none d-lg-flex">
             <div className="col-lg-4">
                 <Link href className="text-decoration-none">
                     <span className="h1 text-uppercase text-primary bg-white px-1">THE</span>
@@ -115,14 +127,18 @@ function Nabars() {
         <div className="col-lg-12">
             <nav className="navbar navbar-expand-lg bg-primary navbar-dark py-3 py-lg-0 px-0">
                 <Link href="" className="text-decoration-none d-block d-lg-none">
+                  
                 <span className="h1 text-uppercase text-dark bg-light px-2">THE</span>
                 <span className="h1 text-uppercase text-light bg-primary px-2 ml-n1">BRAIN</span>
                 </Link>
                 <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                  
                     <span className="navbar-toggler-icon"></span>
+                    
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div className="navbar-nav mr-auto py-0">
+                      
                         <Link href="index.html" className="nav-item nav-Link  m-1 text-white">Home
                         </Link>
                         <Link href="shop.html" className="nav-item nav-Link m-1 text-white">Shop
@@ -135,7 +151,9 @@ function Nabars() {
                                 </Link>
                                 <Link href="checkout.html" className="dropdown-item">Checkout
                                 </Link>
+                                
                             </div>
+                            
                         </div>
                        
                     </div>
