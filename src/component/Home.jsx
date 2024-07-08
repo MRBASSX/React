@@ -3,12 +3,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import logo from '../logo.svg';
 import Cover from "./Cover"
+import Featured from './Featured';
 
 function Home() {
     return (
 
         <>
         <Cover />
+        <Featured />
         <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

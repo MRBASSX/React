@@ -1,5 +1,4 @@
 import Carousel from 'react-bootstrap/Carousel';
-import logo from '../logo.svg';
 import cover1 from '../static/product/img/carousel-1.jpg'
 import cover2 from '../static/product/img/carousel-11.jpg'
 import cover3 from '../static/product/img/carousel-22.jpg'
@@ -22,8 +21,9 @@ function Cover() {
         />
         </div>
         <Carousel.Caption>
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h5 className=' text-primary fs-1'>Best Selling</h5>
+          <p className=' text-primary fs-4'>Want the best with a discount ?  tap on the read more.</p>
+          <div className="btn btn-outline-success ">Read More</div>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -40,8 +40,9 @@ function Cover() {
         />
         </div>
         <Carousel.Caption>
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h5 className=' text-primary fs-1'>Best Selling</h5>
+          <p className=' text-primary fs-4'>Want the best with a discount ?  tap on the read more.</p>
+          <div className="btn btn-outline-success ">Read More</div>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -58,10 +59,9 @@ function Cover() {
         />
         </div>
         <Carousel.Caption>
-          <h5>Third slide label</h5>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+        <h5 className=' text-primary fs-1'>Best Selling</h5>
+          <p className=' text-primary fs-4'>Want the best with a discount ?  tap on the read more.</p>
+          <div className="btn btn-outline-success ">Read More</div>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
