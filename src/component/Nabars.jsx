@@ -34,15 +34,16 @@ function Nabars() {
          <Router>
 
         
-    
+    {/* Topbar Start  */}
+
     <div className="container-fluid">
         <div className="row bg-primary py-1 px-xl-5">
             <div className="col-lg-6 d-none d-lg-block">
                 <div className="d-inline-flex align-items-center h-100">
-                    <Link className="m-1 text-white">About</Link>
-                    <Link className="m-1 text-white">Contact</Link>
-                    <Link className="m-1 text-white">Help</Link>
-                    <Link className=" m-1 text-white">FAQs</Link>
+                    <Link className="m-1 text-white" to="/about" >About</Link>
+                    <Link className="m-1 text-white" to="/contact" >Contact</Link>
+                    <Link className="m-1 text-white" to="/help" >Help</Link>
+                    <Link className=" m-1 text-white" to="/faq">FAQs</Link>
                 </div>
             </div>
             <div className="col-lg-6 text-center text-lg-right">
@@ -73,19 +74,19 @@ function Nabars() {
                 </div>
                 <div className="d-inline-flex align-items-center d-block d-lg-none">
                   
-                    <Link href className="btn px-0 ml-2">
-                        <i className="fas fa-heart text-white" />
-                        <span className="badge text-white border border-white rounded-circle" style={{paddingBottom: 2}}>0</span>
+                    <Link to="/love" className="btn px-0 ml-2">
+                        <i className="fas fa-heart text-white m-1" />
+                        <span className="badge text-white border border-white rounded-circle m-1" style={{paddingBottom: 2}}>0</span>
                     </Link>
-                    <Link href className="btn px-0 ml-2">
+                    <Link to="/cart" className="btn px-0 ml-2">
                         <i className="fas fa-shopping-cart text-white" />
-                        <span className="badge text-white border border-white rounded-circle" style={{paddingBottom: 2}}>0</span>
+                        <span className="badge text-white border border-white rounded-circle m-1" style={{paddingBottom: 2}}>0</span>
                     </Link>
                     <form action className="mt-2 mx-2">
                     <div className="input-group">
                         <input type="text" className="form-control" placeholder="Search for products" />
                         <div className="btn btn-primary  p-1">
-                            <span className="input-group-text bg-transparent text-">
+                            <span className="input-group-text bg-transparent ">
                 <i className="fa fa-search text-white" />
               </span>
                         </div>
@@ -103,10 +104,10 @@ function Nabars() {
                 </Link>
             </div>
             <div className="col-lg-4 col-6 text-left">
-                <form action>
+                <form action="/" className="mt-2 mx-2">
                     <div className="input-group">
                         <input type="text" className="form-control" placeholder="Search for products" />
-                        <div className="btn btn-primary  p-1">
+                        <div className="btn btn-primary p-1">
                             <span className="input-group-text bg-transparent text-">
                 <i className="fa fa-search text-white" />
               </span>
@@ -121,6 +122,10 @@ function Nabars() {
         </div>
     </div>
 
+ {/* Topbar End */}
+
+
+{/* Navbar Start */}
 
     <div className="container-fluid bg-primary mb-30">
     <div className="row mx-5" > 
@@ -139,17 +144,17 @@ function Nabars() {
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div className="navbar-nav mr-auto py-0">
                       
-                        <Link href="index.html" className="nav-item nav-Link  m-1 text-white">Home
+                        <Link to="/" className="nav-item nav-Link  m-1 text-white">Home
                         </Link>
-                        <Link href="shop.html" className="nav-item nav-Link m-1 text-white">Shop
+                        <Link to="/shop" className="nav-item nav-Link m-1 text-white">Shop
                         </Link>
                         <div className="nav-item dropdown m-1">
                             <Link href="#" className="nav-item nav-Link dropdown-toggle active text-white" data-toggle="dropdown">Buy 
                             </Link>
                             <div className="dropdown-menu bg-primary rounded-0 border-0 m-1">
-                                <Link href="cart.html" className="dropdown-item ">Shopping Cart
+                                <Link to="/cart" className="dropdown-item ">Shopping Cart
                                 </Link>
-                                <Link href="checkout.html" className="dropdown-item">Checkout
+                                <Link to="/checkout" className="dropdown-item">Checkout
                                 </Link>
                                 
                             </div>
@@ -158,13 +163,13 @@ function Nabars() {
                        
                     </div>
                     <div className="navbar-nav ml-auto py-0 d-none d-lg-block">
-                        <Link href="" className="btn px-0">
+                        <Link to="/love" className="btn px-0">
                         <i className="fas fa-heart text-white"></i>
-                        <span className="badge text-white border border-white rounded-circle" style={{paddingBottom: '2px;'}}>0</span>
+                        <span className="badge text-white border border-white rounded-circle m-1" style={{paddingBottom: '2px;'}}>0</span>
                         </Link>
-                        <Link href="" className="btn px-0 ml-3">
+                        <Link to="/cart" className="btn px-0 ml-3">
                         <i className="fas fa-shopping-cart text-white"></i>
-                        <span className="badge text-white border border-white rounded-circle" style={{paddingBottom: '2px;'}}>0</span>
+                        <span className="badge text-white border border-white rounded-circle m-1" style={{paddingBottom: '2px;'}}>0</span>
                         </Link>
                     </div>
                 </div>
@@ -172,7 +177,8 @@ function Nabars() {
         </div>
     </div>
 </div>
-    
+
+{/* Navbar End */}
 
         <Routes>
           <Route path='/' element={<Home />}></Route>
