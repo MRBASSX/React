@@ -1,18 +1,5 @@
-import {
-	BrowserRouter as Router,
-	Routes,
-	Route,
-  Link,
-} from "react-router-dom";
-import Home from './Home';
-import Checkout from './Checkout';
-import Shop from './Shop';
-import Cart from './Cart';
-import Love from './Love';
-import Contact from './Contact';
-import Pay from './Pay';
-import About  from './About';
-import FAQ from './FAQ'
+import {Link} from "react-router-dom";
+
 // import "../static/product/css/style.css"
 import "../static/product/lib/owlcarousel/assets/owl.carousel.min.css"
 import "../static/product/lib/animate/animate.min.css"
@@ -31,7 +18,7 @@ function Nabars() {
     return (
 
         <>
-         <Router>
+      
 
         
     {/* Topbar Start  */}
@@ -180,18 +167,7 @@ function Nabars() {
 
 {/* Navbar End */}
 
-        <Routes>
-          <Route path='/' element={<Home />}></Route>
-          <Route path='/checkout' element={<Checkout />}></Route>
-          <Route path='/shop' element={<Shop />}></Route>
-          <Route path='/cart' element={<Cart />}></Route>
-          <Route path='/love' element={<Love />}></Route>
-          <Route path='/contact' element={<Contact />}></Route>
-          <Route path='/pay' element={<Pay />}></Route>
-          <Route path='/faq' element={<FAQ />}></Route>
-          <Route path='/about' element={<About />}></Route>
-        </Routes>
-      </Router>
+        
        
         </>
     )
