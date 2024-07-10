@@ -24,9 +24,9 @@ function HomeContent() {
                 </div>
                 <div className="text-center py-1">
                     <Link className="h6 text-decoration-none text-truncate text-primary" >Samsung Galaxy</Link>
-                    <div className="d-flex align-items-center justify-content-center mt-2">
+                    <div className="d-flex align-items-center justify-content-center mt-2 text-primary">
                         <h5>$123.0</h5>
-                        <h6 className="text-muted ml-2"><del>$400</del></h6>
+                        <h6 className="text-muted ml-2 text-primary"><del>$400</del></h6>
                     </div>
                     <div className="d-flex align-items-center justify-content-center mb-1">
                         <small className="fa fa-star text-primary mr-1"></small>
@@ -51,7 +51,7 @@ function HomeContent() {
         <>
         {/* Categories Start */}
 <div className="container-fluid pt-5 border border-primary ">
-    <h2 className="section-title position-relative text-uppercase mx-xl-5 mb-4"><span className="bg-primary pr-3 text-bg-light">Laptops</span></h2>
+    <h2 className="section-title position-relative text-uppercase mx-xl-5 mb-4"><span className="pr-3 text-primary">Laptops</span></h2>
     <div className="row px-xl-1 pb-3 d-flex justify-content-center">
      
      <Product />
@@ -59,13 +59,37 @@ function HomeContent() {
      <Product />
      <Product />
      <Product />
+   
+    
+  
+    </div>
+</div>
+
+<div className="container-fluid pt-5 border border-primary ">
+    <h2 className="section-title position-relative text-uppercase mx-xl-5 mb-4"><span className="pr-3 text-primary">Tablet</span></h2>
+    <div className="row px-xl-1 pb-3 d-flex justify-content-center">
+     
+     
      <Product />
      <Product />
      <Product />
      <Product />
      <Product />
+   
+  
+    </div>
+</div>
+
+<div className="container-fluid pt-5 border border-primary ">
+    <h2 className="section-title position-relative text-uppercase mx-xl-5 mb-4"><span className="pr-3 text-primary">Phones</span></h2>
+    <div className="row px-xl-1 pb-3 d-flex justify-content-center">
+     
      <Product />
      <Product />
+     <Product />
+     <Product />
+     <Product />
+    
   
     </div>
 </div>
