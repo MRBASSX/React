@@ -1,9 +1,10 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
-import logo from '../logo.svg';
+// import Button from 'react-bootstrap/Button';
+// import logo from '../logo.svg';
 import Cover from "./Cover"
 import Featured from './Featured';
+import HomeContent  from './HomeContent';
 
 function Home() {
     return (
@@ -11,30 +12,10 @@ function Home() {
         <>
         <Cover />
         <Featured />
-        <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <HomeContent />
        
-        <div>
-  <Button>
-    Button as 
-  </Button>
-  <Button>
-    Button as link
-  </Button>
-  </div>
-
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       
+   
         </>
     )
     
