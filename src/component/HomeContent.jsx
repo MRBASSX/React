@@ -23,7 +23,7 @@ function HomeContent() {
                     </div>
                 </div>
                 <div className="text-center py-1">
-                    <Link className="h6 text-decoration-none text-truncate text-primary" >Samsung Galaxy</Link>
+                    <Link to='/ShopDetail' className="h6 text-decoration-none text-truncate text-primary" >Samsung Galaxy</Link>
                     <div className="d-flex align-items-center justify-content-center mt-2 text-primary">
                         <h5>$123.0</h5>
                         <h6 className="text-muted ml-2 text-primary"><del>$400</del></h6>
@@ -44,6 +44,7 @@ function HomeContent() {
             
         }
       
+
        
    
     return (

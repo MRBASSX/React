@@ -19,6 +19,7 @@ import Contact from './component/Contact';
 import Pay from '././component/Pay';
 import About  from './component/About';
 import FAQ from './component/FAQ';
+import ShopDetail from './component/ShopDetail';
 // or less ideally
 // import { Button } from 'react-bootstrap';
 
@@ -41,9 +42,11 @@ function App() {
           <Route path='/pay' element={<Pay />}></Route>
           <Route path='/faq' element={<FAQ />}></Route>
           <Route path='/about' element={<About />}></Route>
+          <Route path='/ShopDetail' element={<ShopDetail />}></Route>
         </Routes>
 
         <Footer />
+
       </Router>
     </div>
   );
