@@ -50,9 +50,9 @@ function ShopDetail() {
                 </a>
             </div>
         </div>
-        <div className="col-lg-7 h-auto mb-30">
-            <div className="h-100 bg-light p-30">
-                <h3>Samsung Galaxy </h3>
+        <div className="col-lg-7 h-auto mb-30 ">
+            <div className="h-100 bg-light pt-30 d-flex justify-content-center align-items-center flex-column">
+                <h3 className="m-3">Digital Camera</h3>
                 <div className="d-flex mb-3">
                     <div className="text-primary mr-2">
                         <small className="fas fa-star"></small>
@@ -61,39 +61,16 @@ function ShopDetail() {
                         <small className="fas fa-star-half-alt"></small>
                         <small className="far fa-star"></small>
                     </div>
-                    <small className="pt-1">(99 Reviews)</small>
+                    <small className="pt-1">(2 Reviews)</small>
                 </div>
-                <h3 className="font-weight-semi-bold mb-4">$150.00</h3>
-                <p className="mb-4">Volup erat ipsum diam elitr rebum et dolor. Est nonumy elitr erat diam stet sit clita ea. Sanc ipsum et, labore clita lorem magna duo dolor no sea Nonumy
-                </p>
-                <div className="d-flex mb-3">
-                    <strong className="text-dark mr-3">Sizes:</strong>
-                    <form>
-                        <div className="custom-control custom-radio custom-control-inline">
-                            <input type="radio" className="custom-control-input" id="size-1" name="size" />
-                            <label className="custom-control-label" htmlFor="size-1">XS</label>
-                        </div>
-                        <div className="custom-control custom-radio custom-control-inline">
-                            <input type="radio" className="custom-control-input" id="size-2" name="size" />
-                            <label className="custom-control-label" htmlFor="size-2">S</label>
-                        </div>
-                        <div className="custom-control custom-radio custom-control-inline">
-                            <input type="radio" className="custom-control-input" id="size-3" name="size" />
-                            <label className="custom-control-label" htmlFor="size-3">M</label>
-                        </div>
-                        <div className="custom-control custom-radio custom-control-inline">
-                            <input type="radio" className="custom-control-input" id="size-4" name="size" />
-                            <label className="custom-control-label" htmlFor="size-4">L</label>
-                        </div>
-                        <div className="custom-control custom-radio custom-control-inline">
-                            <input type="radio" className="custom-control-input" id="size-5" name="size" />
-                            <label className="custom-control-label" htmlFor="size-5">XL</label>
-                        </div>
-                    </form>
-                </div>
-                <div className="d-flex mb-4">
+                <h3 className="font-weight-semi-bold mb-4">${23.00 + 150.00 }.00</h3>
+                <p className="mb-4">The IRF9530 is a high-efficiency P-Channel MOSFET designed for high-speed 
+                switching and power management applications. This MOSFET is suitable for a variety of electronic devices 
+                and circuits, including power supplies, motor controllers, and DC-DC converters.</p>
+               
+                <div className="d-flex mb-4 ">
                     <strong className="text-dark mr-3">Colors:</strong>
-                    <form>
+                    <form className="mx-2  d-flex gap-2 ">
                         <div className="custom-control custom-radio custom-control-inline">
                             <input type="radio" className="custom-control-input" id="color-1" name="color" />
                             <label className="custom-control-label" htmlFor="color-1">Black</label>
@@ -130,7 +107,7 @@ function ShopDetail() {
               </button>
                         </div>
                     </div>
-                    <button className="btn btn-primary px-3"><i className="fa fa-shopping-cart mr-1" ></i> Add To
+                    <button className="btn btn-primary px-3 m-2"><i className="fa fa-shopping-cart mr-1" ></i> Add To
             Cart</button>
                 </div>
                 <div className="d-flex pt-2">
@@ -159,52 +136,47 @@ function ShopDetail() {
                 <div className="nav nav-tabs mb-4">
                     <a className="nav-item nav-link text-dark active" data-toggle="tab" href="#tab-pane-1">Description</a>
                     <a className="nav-item nav-link text-dark" data-toggle="tab" href="#tab-pane-2">Information</a>
-                    <a className="nav-item nav-link text-dark" data-toggle="tab" href="#tab-pane-3">Reviews (0)</a>
+                    <a className="nav-item nav-link text-dark" data-toggle="tab" href="#tab-pane-3">Reviews (1)</a>
                 </div>
                 <div className="tab-content">
                     <div className="tab-pane fade show active" id="tab-pane-1">
                         <h4 className="mb-3">Product Description</h4>
-                        <p>Eos no lorem eirmod diam diam, eos elitr et gubergren diam sea. Consetetur vero aliquyam invidunt duo dolores et duo sit. Vero diam ea vero et dolore rebum, dolor rebum eirmod consetetur invidunt sed sed et, lorem duo et eos elitr,
-                            sadipscing kasd ipsum rebum diam. Dolore diam stet rebum sed tempor kasd eirmod. Takimata kasd ipsum accusam sadipscing, eos dolores sit no ut diam consetetur duo justo est, sit sanctus diam tempor aliquyam eirmod nonumy rebum
-                            dolor accusam, ipsum kasd eos consetetur at sit rebum, diam kasd invidunt tempor lorem, ipsum lorem elitr sanctus eirmod takimata dolor ea invidunt.</p>
-                        <p>Dolore magna est eirmod sanctus dolor, amet diam et eirmod et ipsum. Amet dolore tempor consetetur sed lorem dolor sit lorem tempor. Gubergren amet amet labore sadipscing clita clita diam clita. Sea amet et sed ipsum lorem elitr
-                            et, amet et labore voluptua sit rebum. Ea erat sed et diam takimata sed justo. Magna takimata justo et amet magna et.</p>
+                        <p>The IRF9530 is a high-efficiency P-Channel MOSFET designed for high-speed switching and power management applications. This MOSFET is suitable for a variety of electronic devices and circuits, including power supplies, motor controllers, and DC-DC converters. With its low on-resistance and high current-carrying capability, the IRF9530 ensures efficient performance and reliable operation.</p>
+                        <p>The IRF9530 is a high-efficiency P-Channel MOSFET designed for high-speed switching and power management applications. This MOSFET is suitable for a variety of electronic devices and circuits, including power supplies, motor controllers, and DC-DC converters. With its low on-resistance and high current-carrying capability, the IRF9530 ensures efficient performance and reliable operation.</p>
                     </div>
                     <div className="tab-pane fade" id="tab-pane-2">
                         <h4 className="mb-3">Additional Information</h4>
-                        <p>Eos no lorem eirmod diam diam, eos elitr et gubergren diam sea. Consetetur vero aliquyam invidunt duo dolores et duo sit. Vero diam ea vero et dolore rebum, dolor rebum eirmod consetetur invidunt sed sed et, lorem duo et eos elitr,
-                            sadipscing kasd ipsum rebum diam. Dolore diam stet rebum sed tempor kasd eirmod. Takimata kasd ipsum accusam sadipscing, eos dolores sit no ut diam consetetur duo justo est, sit sanctus diam tempor aliquyam eirmod nonumy rebum
-                            dolor accusam, ipsum kasd eos consetetur at sit rebum, diam kasd invidunt tempor lorem, ipsum lorem elitr sanctus eirmod takimata dolor ea invidunt.</p>
+                        <p>The IRF9530 is a high-efficiency P-Channel MOSFET designed for high-speed switching and power management applications. This MOSFET is suitable for a variety of electronic devices and circuits, including power supplies, motor controllers, and DC-DC converters. With its low on-resistance and high current-carrying capability, the IRF9530 ensures efficient performance and reliable operation..</p>
                         <div className="row">
                             <div className="col-md-6">
                                 <ul className="list-group list-group-flush">
                                     <li className="list-group-item px-0">
-                                        Sit erat duo lorem duo ea consetetur, et eirmod takimata.
+                                    High Current Capacity: Capable of handling continuous drain current up to -19A.
                                     </li>
                                     <li className="list-group-item px-0">
-                                        Amet kasd gubergren sit sanctus et lorem eos sadipscing at.
+                                    High Current Capacity: Capable of handling continuous drain current up to -19A.
                                     </li>
                                     <li className="list-group-item px-0">
-                                        Duo amet accusam eirmod nonumy stet et et stet eirmod.
+                                    High Current Capacity: Capable of handling continuous drain current up to -19A.
                                     </li>
                                     <li className="list-group-item px-0">
-                                        Takimata ea clita labore amet ipsum erat justo voluptua. Nonumy.
+                                    High Current Capacity: Capable of handling continuous drain current up to -19A.
                                     </li>
                                 </ul>
                             </div>
                             <div className="col-md-6">
                                 <ul className="list-group list-group-flush">
                                     <li className="list-group-item px-0">
-                                        Sit erat duo lorem duo ea consetetur, et eirmod takimata.
+                                    High Current Capacity: Capable of handling continuous drain current up to -19A.
                                     </li>
                                     <li className="list-group-item px-0">
-                                        Amet kasd gubergren sit sanctus et lorem eos sadipscing at.
+                                    High Current Capacity: Capable of handling continuous drain current up to -19A.
                                     </li>
                                     <li className="list-group-item px-0">
-                                        Duo amet accusam eirmod nonumy stet et et stet eirmod.
+                                    High Current Capacity: Capable of handling continuous drain current up to -19A.
                                     </li>
                                     <li className="list-group-item px-0">
-                                        Takimata ea clita labore amet ipsum erat justo voluptua. Nonumy.
+                                    High Current Capacity: Capable of handling continuous drain current up to -19A.
                                     </li>
                                 </ul>
                             </div>
@@ -213,9 +185,9 @@ function ShopDetail() {
                     <div className="tab-pane fade" id="tab-pane-3">
                         <div className="row">
                             <div className="col-md-6">
-                                <h4 className="mb-4">1 review for "Product Name"</h4>
+                                <h4 className="mb-4">1 review for  Digital Camera </h4>
                                 <div className="media mb-4">
-                                    <img src="img/user.jpg" alt="Not Available"  className="img-fluid mr-3 mt-1" style={{width: 45}} />
+                                    <img src={cover3} alt="Not Available"  className="img-fluid mr-3 mt-1" style={{width: 45}} />
                                     <div className="media-body">
                                         <h6>John Doe<small> - <i>01 Jan 2045</i></small>
                                         </h6>
@@ -226,7 +198,8 @@ function ShopDetail() {
                                             <i className="fas fa-star-half-alt"></i>
                                             <i className="far fa-star"></i>
                                         </div>
-                                        <p>Diam amet duo labore stet elitr ea clita ipsum, tempor labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum.</p>
+                                        <p>The IRF9530 is a high-efficiency P-Channel MOSFET designed for high-speed switching and power management applications. This MOSFET is suitable for a variety of 
+                                            electronic devices and circuits, including power supplies, motor controllers, and DC-DC converters.</p>
                                     </div>
                                 </div>
                             </div>
@@ -256,8 +229,8 @@ function ShopDetail() {
                                         <label htmlFor="email">Your Email *</label>
                                         <input type="email" className="form-control" id="email" />
                                     </div>
-                                    <div className="form-group mb-0">
-                                        <input type="submit" defaultValue="Leave Your Review" className="btn btn-primary px-3" />
+                                    <div className="form-group mt-3">
+                                        <input type="submit" Value="Leave Your Review" className="btn btn-primary px-3" />
                                     </div>
                                 </form>
                             </div>

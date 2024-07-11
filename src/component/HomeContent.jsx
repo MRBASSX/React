@@ -3,9 +3,12 @@ import images from "../static/product/img/product-1.jpg"
 
 
 function HomeContent() {
-
+    var productname = document.getElementById("productname") ;
+    // productname.onmouseleave = function (e){   e.style.color ="red" ; }
     
-      const Product = ()=>{       
+      const Product = ()=>{    
+        
+       
             
            return (
             <>
@@ -23,7 +26,7 @@ function HomeContent() {
                     </div>
                 </div>
                 <div className="text-center py-1">
-                    <Link to='/ShopDetail' className="h6 text-decoration-none text-truncate text-primary" >Samsung Galaxy</Link>
+                    <Link to='/ShopDetail' className="h6 text-decoration-none text-truncate text-primary " id="productname">Samsung Galaxy</Link>
                     <div className="d-flex align-items-center justify-content-center mt-2 text-primary">
                         <h5>$123.0</h5>
                         <h6 className="text-muted ml-2 text-primary"><del>$400</del></h6>
