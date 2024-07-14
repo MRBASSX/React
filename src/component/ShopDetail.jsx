@@ -230,7 +230,7 @@ function ShopDetail() {
                                         <input type="email" className="form-control" id="email" />
                                     </div>
                                     <div className="form-group mt-3">
-                                        <input type="submit" Value="Leave Your Review" className="btn btn-primary px-3" />
+                                        <input type="submit" value={"Leave Your Review"} className="btn btn-primary px-3" />
                                     </div>
                                 </form>
                             </div>

@@ -10,6 +10,7 @@ function Home() {
     return (
 
         <>
+        
         <Cover />
         <Featured />
         <HomeContent />
