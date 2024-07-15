@@ -57,7 +57,7 @@ function HomeContent() {
         <>
         {/* Categories Start */}
 <div className="container-fluid pt-5 border border-primary ">
-    <h2 className="section-title position-relative text-uppercase mx-xl-5 mb-4"><span className="pr-3 text-primary">Laptops</span></h2>
+    <h2 className="section-title position-relative text-uppercase mx-xl-5 mb-4"><span className="pr-3 text-primary fs-1 border-bottom border-black">Laptops</span></h2>
     <div className="row px-xl-1 pb-3 d-flex justify-content-center">
      
      <Product  />
@@ -72,7 +72,7 @@ function HomeContent() {
 </div>
 
 <div className="container-fluid pt-5 border border-primary ">
-    <h2 className="section-title position-relative text-uppercase mx-xl-5 mb-4"><span className="pr-3 text-primary">Tablet</span></h2>
+    <h2 className="section-title position-relative text-uppercase mx-xl-5 mb-4"><span className="pr-3 text-primary fs-1 border-bottom border-black">Tablet</span></h2>
     <div className="row px-xl-1 pb-3 d-flex justify-content-center">
      
      
@@ -87,7 +87,7 @@ function HomeContent() {
 </div>
 
 <div className="container-fluid pt-5 border border-primary ">
-    <h2 className="section-title position-relative text-uppercase mx-xl-5 mb-4"><span className="pr-3 text-primary">Phones</span></h2>
+    <h2 className="section-title position-relative text-uppercase mx-xl-5 mb-4"><span className="pr-3 text-primary fs-1 border-bottom border-black">Phones</span></h2>
     <div className="row px-xl-1 pb-3 d-flex justify-content-center">
      
      <Product />

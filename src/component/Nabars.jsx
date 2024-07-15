@@ -59,6 +59,7 @@ function Nabars() {
                         </div>
                     </div>
                 </div>
+                <hr className="d-lg-none"/>
                 <div className="d-inline-flex align-items-center d-block d-lg-none">
                   
                     <Link to="/love" className="btn px-0 ml-2">
@@ -80,7 +81,7 @@ function Nabars() {
                     </div>
                 </form>
                 </div>
-                
+                <hr className="d-lg-none bg-danger h-10"/>
             </div>
         </div>
         <div className="row align-items-center bg-light py-2 px-xl-5 d-none d-lg-flex">
