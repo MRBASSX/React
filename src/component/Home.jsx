@@ -10,7 +10,7 @@ function Home() {
     return (
 
         <>
-        
+        <div  id='up'></div>
         <Cover />
         <Featured />
         <HomeContent />

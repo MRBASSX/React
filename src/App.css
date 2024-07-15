@@ -37,19 +37,34 @@
     }
 }
 
-.productName{
-
+.productName {
     color: blue;
 }
 
 .productName:hover {
-   
-    border-bottom:1px solid green;
+    border-bottom: 1px solid green;
 }
 
 .hoverchange:hover {
+    background-color: royalblue;
+    color: red;
+}
 
-    
-     background-color: royalblue;
-     color: red;
+.MyCustomFont {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hoverchangeA {
+    color: white;
+}
+
+.hoverchangeA:hover {
+    color: #36d30e;
+    text-decoration: underline;
+
+}
+
+.text-primary .bg-primary {
+
+    color: ghostwhite;
 }

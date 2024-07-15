@@ -1,10 +1,11 @@
 
 
-import './App.scss';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import Nabars from './component/Nabars';
 import Footer from './component/Footer';
 import './App.css';
+import './App.scss';
 import {
 	BrowserRouter as Router,
 	Routes,
