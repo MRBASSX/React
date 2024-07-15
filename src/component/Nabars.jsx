@@ -33,7 +33,7 @@ function Nabars() {
                     <Link className=" m-1 text-white" to="/faq">FAQs</Link>
                 </div>
             </div>
-            <div className="col-lg-6 text-center text-lg-right">
+            <div className="col-lg-6 text-center text-lg-right s">
                 <div className="d-inline-flex align-items-center">
                     <div className="btn-group">
                         <button type="button" className="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">My Account</button>
@@ -42,7 +42,7 @@ function Nabars() {
                             <button className="dropdown-item" type="button">Sign up</button>
                         </div>
                     </div>
-                    <div className="btn-group mx-2">
+                    <div className="btn-group mx-2 ">
                         <button type="button" className="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">USD</button>
                         <div className="dropdown-menu dropdown-menu-right">
                             <button className="dropdown-item" type="button">EUR</button>
@@ -81,7 +81,8 @@ function Nabars() {
                     </div>
                 </form>
                 </div>
-                <hr className="d-lg-none bg-danger h-10"/>
+
+                <hr className="d-lg-none bg-white h-10"/>
             </div>
         </div>
         <div className="row align-items-center bg-light py-2 px-xl-5 d-none d-lg-flex">
