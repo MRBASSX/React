@@ -24,7 +24,7 @@ function Cover() {
         </div>
         <Carousel.Caption>
           <h5 className=' text-primary fs-1 '>Best Selling</h5>
-          <p className=' text-primary fs-4 '>Want the best with a discount ?  tap on the read more.</p>
+          <p className=' text-primary fs-4 '>Want the best with a discount ?  tap on the Shop Now.</p>
           <Link className="btn btn-outline-success " to="/shop">Shop Now</Link>
         </Carousel.Caption>
       </Carousel.Item>
@@ -43,8 +43,8 @@ function Cover() {
         </div>
         <Carousel.Caption>
         <h5 className=' text-primary fs-1 '>Best Selling</h5>
-          <p className=' text-primary fs-4 '>Want the best with a discount ?  tap on the read more.</p>
-          <div className="btn btn-outline-success ">Read More</div>
+          <p className=' text-primary fs-4 '>Want the best with a discount ?  tap on the Shop Now.</p>
+          <div className="btn btn-outline-success ">Shop Now</div>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -62,8 +62,8 @@ function Cover() {
         </div>
         <Carousel.Caption>
         <h5 className=' text-primary fs-1 '>Best Selling</h5>
-          <p className=' text-primary fs-4 '>Want the best with a discount ?  tap on the read more.</p>
-          <div className="btn btn-outline-success ">Read More</div>
+          <p className=' text-primary fs-4 '>Want the best with a discount ?  tap on the Shop Now.</p>
+          <div className="btn btn-outline-success ">Shop Now</div>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
