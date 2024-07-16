@@ -25,12 +25,12 @@ function Nabars() {
 
     <div className="container-fluid">
         <div className="row bg-primary py-1 px-xl-5">
-            <div className="col-lg-6 d-none d-lg-block">
+            <div className="col-lg-6 d-none d-lg-block MyCustomFont">
                 <div className="d-inline-flex align-items-center h-100">
-                    <Link className="m-1 text-white" to="/about" >About</Link>
-                    <Link className="m-1 text-white" to="/contact" >Contact</Link>
-                    <Link className="m-1 text-white" to="/help" >Help</Link>
-                    <Link className=" m-1 text-white" to="/faq">FAQs</Link>
+                    <Link className="mx-3 hoverchangeA" to="/about" >About</Link>
+                    <Link className="mx-2 hoverchangeA" to="/contact" >Contact</Link>
+                    <Link className="mx-2 hoverchangeA" to="/help" >Help</Link>
+                    <Link className=" mx-2 hoverchangeA" to="/faq">FAQs</Link>
                 </div>
             </div>
             <div className="col-lg-6 text-center text-lg-right s">

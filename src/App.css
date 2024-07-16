@@ -56,11 +56,15 @@
 
 .hoverchangeA {
     color: white;
+    text-decoration: none;
+   /* border-left: 0.0001rem solid  white;
+    border-spacing: 3;*/
+   
 }
 
 .hoverchangeA:hover {
     color: #36d30e;
-    text-decoration: underline;
+    
 
 }
 
@@ -68,6 +72,7 @@
 
     color: ghostwhite;
     background-color: darkcyan;
+
 }
 
 .h-10{
