@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom"
 import images from "../static/product/img/product-1.jpg"
-// import { useState } from "react"
+import { useState } from "react"
 
 
 function HomeContent() {
-    
-    //    const [getcolor,setColor] = useState("text-primary")
+       const MyData = [{id:1,name:'anass'},{id:1,name:'anass'}]
+       const [getData,setData] = useState(MyData)
+
+
  
 
       const Product = (props)=>{    
