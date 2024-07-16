@@ -1,12 +1,27 @@
 import { Link } from "react-router-dom"
 import images from "../static/product/img/product-1.jpg"
-import { useState } from "react"
+import { useEffect, useState } from "react"
+// import axios from "axios"
 
 
 function HomeContent() {
-       const MyData = [{id:1,name:'anass'},{id:1,name:'anass'}]
-       const [getData,setData] = useState(MyData)
 
+       const MData = [{id:1,name:'Iphone'},{id:1,name:'Samsung'}]
+       const [getData,setData] = useState(MData)
+       
+
+       useEffect(()=>{
+        fetch('/tolist/').then((res)=>{
+            //  setData(res.data)
+            setData([
+            {id:1,name:'Iphone'},
+            {id:1,name:'Samsung'},
+            {id:1,name:'Samsung'},
+            {id:1,name:'Samsung'}]);
+
+        })
+       },[])
+       
 
  
 
@@ -16,7 +31,11 @@ function HomeContent() {
             
            return (
             <>
-             <div className="col-lg-2 col-md-4 col-sm-4 pb-1 border border-primary m-2 hoverchange shadow bg-shadow">
+           
+                {
+                    getData.map((keyValue)=>(
+                      <>
+        <div className="col-lg-2 col-md-4 col-sm-4 pb-1 border border-primary m-2 hoverchange shadow bg-shadow">
             <div className="product-item bg-white mb-2 mt-2">
                 <div className="product-img position-relative overflow-hidden">
                      <Link to='/ShopDetail'>  
@@ -46,6 +65,11 @@ function HomeContent() {
                 </div>
             </div>
         </div>
+                      </>
+
+                    ))
+                }
+           
             </>
            )
             
@@ -63,10 +87,7 @@ function HomeContent() {
     <div className="row px-xl-1 pb-3 d-flex justify-content-center">
      
      <Product  />
-     <Product />
-     <Product />
-     <Product />
-     <Product />
+     
    
     
   
@@ -79,10 +100,7 @@ function HomeContent() {
      
      
      <Product />
-     <Product />
-     <Product />
-     <Product />
-     <Product />
+     
    
   
     </div>
@@ -92,10 +110,7 @@ function HomeContent() {
     <h2 className="section-title position-relative text-uppercase mx-xl-5 mb-4"><span className="pr-3 text-primary fs-1 border-bottom border-black">Phones</span></h2>
     <div className="row px-xl-1 pb-3 d-flex justify-content-center">
      
-     <Product />
-     <Product />
-     <Product />
-     <Product />
+    
      <Product />
     
   
