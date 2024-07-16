@@ -64,6 +64,8 @@
 
 .hoverchangeA:hover {
     color: #36d30e;
+    text-decoration: none;
+/*    border: 0.5px solid white;*/
     
 
 }

@@ -133,12 +133,12 @@ function Nabars() {
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div className="navbar-nav mr-auto py-0">
                       
-                        <Link to="/" className="nav-item nav-Link  m-1 text-white">Home
+                        <Link to="/" className="nav-item nav-Link mx-3 hoverchangeA">Home
                         </Link>
-                        <Link to="/shop" className="nav-item nav-Link m-1 text-white">Shop
+                        <Link to="/shop" className="nav-item nav-Link  mx-3 hoverchangeA">Shop
                         </Link>
                         <div className="nav-item dropdown m-1">
-                            <Link href="#" className="nav-item nav-Link dropdown-toggle active text-white" data-toggle="dropdown">Buy 
+                            <Link href="#" className="nav-item nav-Link dropdown-toggle active  mx-5 hoverchangeA" data-toggle="dropdown">Buy 
                             </Link>
                             <div className="dropdown-menu bg-primary rounded-0 border-0 m-1">
                                 <Link to="/cart" className="dropdown-item ">Shopping Cart
