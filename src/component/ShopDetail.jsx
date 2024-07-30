@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom"
 import cover3 from '../static/product/img/product-1.jpg'
+import { useState } from "react";
 
 function ShopDetail() {
+
+    const [getQuantity,setQuantity] =  useState(1);
     
 
     return (
@@ -96,13 +99,13 @@ function ShopDetail() {
                 <div className="d-flex align-items-center mb-4 pt-2">
                     <div className="input-group quantity mr-3" style={{width: 130}}>
                         <div className="input-group-btn">
-                            <button className="btn btn-primary btn-minus">
+                            <button className="btn btn-primary btn-minus" onClick={()=>setQuantity(getQuantity=>getQuantity -1)}>
                 <i className="fa fa-minus" ></i>
               </button>
                         </div>
-                        <input type="text" className="form-control bg-secondary border-0 text-center" defaultValue={1} />
+                        <input type="text" className="form-control bg-secondary border-0 text-center" value={ getQuantity < 1  ? setQuantity(1):getQuantity} />
                         <div className="input-group-btn">
-                            <button className="btn btn-primary btn-plus">
+                            <button className="btn btn-primary btn-plus" onClick={()=>setQuantity(getQuantity=>getQuantity + 1)}>
                 <i className="fa fa-plus" ></i>
               </button>
                         </div>
