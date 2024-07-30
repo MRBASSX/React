@@ -22,7 +22,7 @@ function HomeContent() {
             {id:1,name:'samsung galaxy S6',image:images2,price:350},
             {id:1,name:'iphone 11 pro',image:images1,price:320},
             {id:1,name:'samsung galaxy S6',image:images2,price:350},
-            {id:1,name:'iphone 11 pro',image:images1,price:320},
+            
             {id:1,name:'samsung galaxy S6',image:images2,price:350},
             {id:1,name:'iphone 11 pro',image:images1,price:320},
             {id:1,name:'samsung galaxy S6',image:images2,price:350},
